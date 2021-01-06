@@ -1,3 +1,5 @@
+/* For adding google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
@@ -7,16 +9,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* for adding same width for all the section*/
 .container {
     width: 80%;
     margin: auto;
 }
 
+/* for making all the section title center */
+.text-center {
+    text-align: center;
+}
+
+
+/*for adding same section title style in all the section */
 .section-title {
     font-size: 40px;
     font-weight: 500;
     line-height: 40px;
 }
+
 
 p {
     font-family: 'Roboto', sans-serif;
@@ -24,6 +35,8 @@ p {
     color: gray;
     line-height: 24px;
 }
+
+/* nav section start*/
 
 #navbar {
     height: 100px;
@@ -46,7 +59,10 @@ ul li a {
     text-decoration: none;
     font-weight: 500;
 }
+/* navbar section end */
 
+
+/* banner section start */
 #banner {
     height: 50vh;
 }
@@ -85,7 +101,10 @@ img {
     border-radius: 5px;
     text-decoration: none;
 }
+/* banner section end */
 
+
+/* about section start */
 #about {
     height: 85vh;
 }
@@ -98,13 +117,15 @@ img {
 #about .about-text {
     margin-left: 80px;
 }
+/* about section end */
 
+
+/* latest work section start */
 #latest-work {
     height: 80vh;
     background: #F6F4FE;
     padding-bottom: 100px;
 }
-
 
 .project {
     width: 27%;
@@ -119,6 +140,8 @@ img {
 .project img {
     width: 100%;
 }
+/* project section end */
+
 
 .heading-title {
     font-family: 'Bebas Neue', cursive;
@@ -126,6 +149,7 @@ img {
     margin-bottom: 70px;
 }
 
+/* client section start */
 #client-says {
     height: 100vh;
     padding-bottom: 100px;
@@ -143,7 +167,10 @@ img {
 .client img {
     width: 100%;
 }
+/* client section end */
 
+
+/* conotact section start */
 #contact {
     height: 30vh;
     margin-top: 50px;
@@ -176,9 +203,12 @@ img {
 .right-sight {
     float: right;
 }
+/* contact section end */
 
-.text-center {
-    text-align: center;
+
+/* footer section start */
+#footer {
+    margin-top: 80px;
 }
 
 .icon {
@@ -191,12 +221,9 @@ img {
     float: left;
     margin-left: 10%;
 }
+/* footer section end */
 
 .padding-top {
     padding-top: 80px;
     padding-bottom: 50px;
-}
-
-#footer {
-    margin-top: 80px;
 }
