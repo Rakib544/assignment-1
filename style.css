@@ -15,6 +15,7 @@ body {
     margin: auto;
 }
 
+
 /* for making all the section title center */
 .text-center {
     text-align: center;
@@ -36,23 +37,47 @@ p {
     line-height: 24px;
 }
 
-/* nav section start*/
+/* for adding some style in the section title */
+.heading-title {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-bottom: 70px;
+}
 
+/* for adding card design */
+
+.card {
+    width: 27%;
+    float: left;
+    margin-right: 2%;
+    padding: 10px 18px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* for setting the full width of all images */
+img {
+    width: 100%;
+} 
+
+
+/* nav section start*/
 #navbar {
     height: 100px;
 }
-ul {
+#navbar ul {
     float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-ul li {
+#navbar ul li {
     float: left;
 }
 
-ul li a {
+#navbar ul li a {
     display: block;
     padding: 35px 15px;
     color: black;
@@ -67,16 +92,16 @@ ul li a {
     height: 50vh;
 }
 
+#banner img {
+    width: 120%;
+}
+
 .half-width {
     width: 45%;
     float: left;
 }
 
-img {
-    width: 120%;
-}
-
-.banner-title {
+#banner .banner-title {
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     font-weight: 400;
@@ -110,8 +135,9 @@ img {
 }
 
 #about img {
+    width: 120%;
     margin-left: -80px;
-    margin-top: -200px;
+    margin-top: -180px;
 }
 
 #about .about-text {
@@ -126,28 +152,8 @@ img {
     background: #F6F4FE;
     padding-bottom: 100px;
 }
-
-.project {
-    width: 27%;
-    float: left;
-    margin-right: 2%;
-    padding: 10px 18px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    background-color: white;
-}
-
-.project img {
-    width: 100%;
-}
 /* project section end */
 
-
-.heading-title {
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    margin-bottom: 70px;
-}
 
 /* client section start */
 #client-says {
@@ -155,17 +161,8 @@ img {
     padding-bottom: 100px;
 }
 
-.client {
-    width: 27%;
-    float: left;
-    margin-right: 2%;
-    padding: 10px 18px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-    border-radius: 10px;
-}
-
-.client img {
-    width: 100%;
+#clients-says img {
+    height: 100%;
 }
 /* client section end */
 
@@ -176,7 +173,7 @@ img {
     margin-top: 50px;
 }
 
-.contact-box {
+#contact .contact-box {
     background-image: url("images/Group_33094_1.png");
     background-size: cover;
     background-position: center;
@@ -185,22 +182,22 @@ img {
     margin: 0 auto;
 }
 
-.contact-text {
+#contact .contact-text {
     font-size: 64px;
     font-family: 'Bebas Neue', cursive;
     color: white;
     margin-top: -10px;
 }
 
-.contact-info {
+#contact .contact-info {
     padding: 70px 100px;
 }
 
-.left-sight {
+#contact .left-sight {
     float: left;
 }
 
-.right-sight {
+#contact .right-sight {
     float: right;
 }
 /* contact section end */
@@ -211,12 +208,12 @@ img {
     margin-top: 80px;
 }
 
-.icon {
+#footer .icon {
     width: 20%;
     margin: 0 auto;
 }
 
-.icon-img {
+#footer .icon-img {
     width: 15%;
     float: left;
     margin-left: 10%;
